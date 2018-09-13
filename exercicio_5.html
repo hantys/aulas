@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>Teste</title>
+</head>
+<body>
+  <script>
+    var usuarios = [
+    {
+      nome: 'Diego',
+      habilidades: ['Javascript', 'ReactJS', 'Redux']
+    },
+    {
+      nome: 'Gabriel',
+      habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+    }
+    ];
+    
+    function habilidades(users) {
+      for (let index = 0; index < users.length; index++) {
+        const element = users[index];
+
+        console.log("O " + users[index].nome + " possui as habilidades: " + users[index].habilidades.join(', '));
+      }
+    }
+    habilidades(usuarios)
+    // O Diego possui as habilidades: Javascript, ReactJS, Redux
+    // O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
+  </script>
+</body>
+</html>
+
