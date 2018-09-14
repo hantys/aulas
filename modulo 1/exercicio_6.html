@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>Teste</title>
+</head>
+<body>
+  <script>
+    function countdown(minutos) {
+      // data.setMinutes(index)
+      time = minutos * 60
+      var cron = setInterval(function() {
+        if (time >= 0){
+          var data = new Date("00 00:00:00");
+          var FormDataTime = ''
+          data.setSeconds(time)
+          if (data.getHours() < 10) {
+            FormDataTime += "0"+data.getHours()+":"
+          } else {
+            FormDataTime += data.getHours()+":"
+          }
+          if (data.getMinutes() < 10) {
+            FormDataTime += "0"+data.getMinutes()+":"
+          } else {
+            FormDataTime += data.getMinutes()+":"
+          }
+          if (data.getSeconds() < 10) {
+            FormDataTime += "0"+data.getSeconds()
+          } else {
+            FormDataTime += data.getSeconds()
+          }
+          console.log(FormDataTime);
+          time --
+        }else{
+          clearInterval(cron)
+          console.log("tempo finalizado");
+        }
+      }, 1000);
+    }
+    
+    countdown(70);
+    // 70 minutos equivalem a 1 hora e 10 minutos
+    // 01:10:00
+    // 01:09:59
+    // 01:09:58
+    // 01:09:57
+    // 01:09:56
+  </script>
+</body>
+</html>
+
