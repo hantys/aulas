@@ -76,19 +76,23 @@
 // console.log(usuario2);
 // console.log(usuario3);
 
-const usuario = 'Diego';
-const idade = 23;
+// const usuario = 'Diego';
+// const idade = 23;
 
-console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
-console.log(`O usuário ${usuario} possui ${idade} anos`);
+// console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
+// console.log(`O usuário ${usuario} possui ${idade} anos`);
 
 
-const nome = 'Diego';
+// const nome = 'Diego';
 
-const usuario1 = {
-  nome,
-  idade,
-  cidade: 'Rio do Sul',
-};
+// const usuario1 = {
+//   nome,
+//   idade,
+//   cidade: 'Rio do Sul',
+// };
 
-console.log(usuario1);
+// console.log(usuario1);
+
+import { soma } from './funcoes';
+
+console.log(soma(1, 2));
