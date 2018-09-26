@@ -1,35 +1,3 @@
 {
-  "cSpell.words": [
-    "habilidade",
-    "teste"
-  ],
-  "cSpell.enabledLanguageIds": [
-    "asciidoc",
-    "c",
-    "coffeescript",
-    "cpp",
-    "csharp",
-    "css",
-    "go",
-    "handlebars",
-    "jade",
-    "javascript",
-    "javascriptreact",
-    "json",
-    "latex",
-    "less",
-    "markdown",
-    "php",
-    "plaintext",
-    "pub",
-    "python",
-    "restructuredtext",
-    "rust",
-    "scss",
-    "text",
-    "typescript",
-    "typescriptreact",
-    "yml"
-  ],
-  "cSpell.language": "en"
+  "eslint.enable": false
 }
