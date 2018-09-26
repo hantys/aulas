@@ -11,3 +11,22 @@
 
 # Ignore trash
 .DS_Store
+
+/reactjs/huntweb/node_modules
+
+# testing
+/reactjs/huntweb/coverage
+
+# production
+/reactjs/huntweb/build
+
+# misc
+/reactjs/huntweb/.DS_Store
+/reactjs/huntweb/.env.local
+/reactjs/huntweb/.env.development.local
+/reactjs/huntweb/.env.test.local
+/reactjs/huntweb/.env.production.local
+
+/reactjs/huntweb/npm-debug.log*
+/reactjs/huntweb/yarn-debug.log*
+/reactjs/huntweb/yarn-error.log*
