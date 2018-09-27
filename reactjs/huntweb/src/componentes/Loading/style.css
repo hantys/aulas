@@ -13,7 +13,7 @@
   position: relative;
   margin: -250px auto;
   width: 80px; height: 80px;
-  background-color: #111;
+  background-color: #da552f;
   border-radius:50px;
   box-shadow: inset -4px 2px 0px 0px rgba(240,220,220,1);
   -webkit-animation:headAnim 1.5s infinite alternate;
@@ -24,7 +24,7 @@
   position: relative;
   margin: 90px auto;
   width: 140px; height: 120px;
-  background-color: #111;
+  background-color: #da552f;
   border-radius: 50px/25px ;
   box-shadow: inset -5px 2px 0px 0px rgba(240,220,220,1);
   -webkit-animation:bodyAnim 1.5s infinite alternate;
@@ -49,7 +49,7 @@
   left: 45%;
   width: 180px; 
   height: 180px;
-  background-color: #111;
+  background-color: #da552f;
   border-radius: 0px 0px 50px 50px;
   position: absolute;
   z-index: 10;
@@ -61,7 +61,7 @@
   margin-top: 140px;
   width: 120px;height: 120px;
   position: absolute;
-  background-color: #111;
+  background-color: #da552f;
   border-radius:20px;
   box-shadow:-1px -4px 0px 0px rgba(240,220,220,1);
   -webkit-transform:rotate(45deg);
