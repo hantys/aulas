@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(express.json());
-app.use(cors.());
+app.use(cors());
 
 // iniciando banco de dados
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true });
