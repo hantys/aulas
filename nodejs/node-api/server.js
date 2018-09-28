@@ -1,14 +1,20 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const requireDir = require('require-dir');
+const cors = require('cors');
 
 const app = express();
+app.use(express.json());
+app.use(cors.());
 
 // iniciando banco de dados
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true });
 
-// primeira rota
-app.get('/', (req, res) => {
-  res.send('hello asdasdsad');
-});
+requireDir('./src/models');
+
+// const Product = mongoose.model('Product');
+
+// rotas
+app.use('/api', require('./src/routes'));
 
 app.listen(3001);
